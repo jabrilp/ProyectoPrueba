@@ -4,7 +4,7 @@
             <form action="{{url('/Usuario')}}" method="post">
                 @csrf
                         
-                <label for="">Nombre</label>
+                <label for="">Nombres y apellidos</label>
                 <input type="text" name="nombre"><br>
                 <label for="">Correo</label>
                 <input type="text" name="correo"><br>
